@@ -5,7 +5,7 @@ project: lz4-go
 target: lz4-go-compression-fuzz
 
 # Base image to run the binary in.
-image: ghcr.io/lotdeef/lz4-go:latest
+# image: ghcr.io/lotdeef/lz4-go:latest
 
 # List of commands used to test the target
 cmds:
