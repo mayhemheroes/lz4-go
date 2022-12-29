@@ -1,12 +1,4 @@
-# Namespaced project name that the target belongs to
 project: lz4-go
-
-# Target name (should be unique within the project)
 target: lz4-go-compression-fuzz
-
-# Base image to run the binary in.
-# image: ghcr.io/lotdeef/lz4-go:latest
-
-# List of commands used to test the target
 cmds:
-  - cmd: ./fuzz.libfuzzer
+  - cmd: ./compression-fuzz.libfuzzer
