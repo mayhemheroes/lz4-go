@@ -1,0 +1,4 @@
+project: lz4-go
+target: lz4-go-compression-fuzz
+cmds:
+  - cmd: ./compression-fuzz.libfuzzer
