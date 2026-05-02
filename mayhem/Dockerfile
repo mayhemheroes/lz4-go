@@ -1,4 +1,4 @@
-FROM golang:1.17.13 as fuzzbuilder
+FROM golang:1.23.13 as fuzzbuilder
 ARG project='lz4-go'
 ARG fuzzTargetPath='fuzz'
 
